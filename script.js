@@ -42,7 +42,7 @@ let numbers = [];
 //         a) Use prompt() to ask "Enter number " + (i + 1)
 //         b) Use parseFloat() to convert the input to a number
 //         c) Use .push() to add the number to the array
-for (i = 0; i < 4; i++) {
+for (i = 0; i < 5; i++) {
    let num = parseFloat(prompt("Enter number " + (i + 1)));
     numbers.push(num);
 };
