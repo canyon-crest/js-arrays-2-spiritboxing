@@ -77,7 +77,7 @@ for (i = 0; i < numbers.length; i++) {
     sum += numbers[i]
 };
 
-
+console.log("Sum: " + sum)
 // STEP 7: Calculate the average.
 //         Average = sum / numbers.length
 //         Print: console.log("Average: " + average)
@@ -94,6 +94,8 @@ for (i = 0; i < numbers.length; i++) {
     evenCount++;
   }
 }
+
+console.log("Even count: " + evenCount)
 // STEP 9: Find the largest number.
 //         Start with the first number as the largest.
 //         Loop through the rest and update if you find a bigger one.
