@@ -73,7 +73,7 @@ console.log("Numbers: " + emptyString);
 //         Print: console.log("Sum: " + sum)
 let sum = 0;
 
-for (i = 0; i < numbers.length; i++) {
+for (i = 0; i < 5; i++) {
     sum += numbers[i]
 };
 
@@ -90,7 +90,7 @@ console.log("Average " + average);
 //         Print: console.log("Even count: " + count)
 let evenCount = 0
 for (i = 0; i < 5; i++) {
-  if (numbers[i] % 2 === "0") {
+  if (numbers[i] % 2 === 0) {
     evenCount++;
   }
 }
